@@ -46,7 +46,7 @@ KindEditor.create('textarea[id="$name"]',{
         uploadJson :   '$upload_url', //文件上传地址
         fileManagerJson : '$manage_url',   //文件管理地址
         deleteUrl  : '$delete_url', //文件删除地址
-        //urlType : 'domain',   //带域名的路径
+        urlType : 'domain',   //带域名的路径
         extraFileUploadParams: {
                 '_token':'$csrf_token'
         },
